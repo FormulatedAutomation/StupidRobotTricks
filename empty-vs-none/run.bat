@@ -1,0 +1,1 @@
+python -m robot --report NONE --outputdir output --logtitle "Task Log" tasks.robot
