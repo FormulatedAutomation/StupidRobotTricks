@@ -6,3 +6,5 @@ dependencies:
   - pip=20.1
   - pip:
     - rpaframework==5.*
+    - robotframework-requests==0.7.*
+    - fa-profiler==0.*
