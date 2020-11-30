@@ -1,6 +1,6 @@
 # Stupid Robot Tricks
 
-This is a 
+This is our guide for solving common problems with Robot Framework and sometimes making it do things it wasn't supposed to.
 
 ## Installation
 
