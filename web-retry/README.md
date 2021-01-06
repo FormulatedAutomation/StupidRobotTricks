@@ -8,14 +8,16 @@ In a perfect world we wouldn't need to retry loading a webpage, but if you're wo
 
 While step #2 seems pretty trivial, it's also a common place to experience breaks in an automation flow.
 
-Two common breakages occur here:
+**Two common breakages occur here:**
 
 1. The element has changed and your script times out and fails.
 2. The page does load before the timeout and your script breaks.
 
-While the first issue will likely require intervention and a change to the script, when working with legacy systems it's not uncommon to see slow page loads or rendering hangs prevent the script from working. In these cases it's easier to retry page load. 
+While the first issue will likely require intervention and script changes, when working with legacy systems it's not uncommon to see slow page loads or rendering hangs prevent the script from completing. In these cases it's easier to retry page load. 
 
-Why not lengthen the timeout? Because many times these hangs can be indefinite with older legacy web apps. Instead of using a 2 minute timeout, it might be faster to retry loading the page after 15 seconds.
+Why not just lengthen the timeout? Because many times these hangs can be indefinite with older legacy web apps. Instead of using a 2 minute timeout, it might be faster to retry loading the page after 15 seconds.
+
+## What's it look like in practice
 
 Doing this with robot framework is actually pretty simple:
 
