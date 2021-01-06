@@ -38,69 +38,40 @@ Robots.yaml
 ```
 
 tasks:
-
   Default:
-
     command:
-
       - python
-
       - -m
-
       - robot
-
       - --report
-
       - NONE
-
       - --outputdir
-
       - output
-
       - --logtitle
-
       - Task log
-
       - tasks.robot
-
 condaConfigFile: conda.yaml
-
 artifactsDir: output
-
 PATH:
-
   - .
-
 PYTHONPATH:
-
   - .
-
 ignoreFiles:
-
     - .gitignore
-
 ```
 
 Here we define how the bot will be run, along with basic configuration items like PATH and PYTHONPATH. You'll also notice the pointer to conda.yaml:
 
 ```
-
 channels:
-
   - defaults
-
   - conda-forge
 
 dependencies:
-
   - python=3.7.5
-
   - pip=20.1
-
   - pip:
-
     - rpaframework==6.*
-
 ```
 
 This is where the encapsulation magic happens. We specify the version of python and pip along with any required pip packages. If you're using other libraries you'll need to add them here.
