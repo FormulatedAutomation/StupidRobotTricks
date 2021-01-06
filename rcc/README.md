@@ -25,7 +25,7 @@ As previously mentioned, RCC is just a compiled executable, it's not a python pa
 
 At this point you can do one of two things. You can download an existing bot and run it via RCC, or you can have RCC create a new automation project for you. Since this is a Github repository, we'll also show you what a new project looks like so you can get an idea.
 
-When RCC created a new project you'll be given the option to choose a template - standard, python, or extended.
+When RCC created a new project you'll be given the option to choose a template - [standard](standard), [python](python), or [extended](extended).
 
 Creating a new project is as simple as `rcc create`
 
