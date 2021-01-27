@@ -66,6 +66,8 @@ In the above task we'll be running Playwright 'codegen' tool and telling it to o
 
 Now the only thing left to do is to run it. RCC will automatically download the requirements (python version, pip, packages) and start the 'codegen' task. Playwrights 'codegen' will open a Chrome browser by default and navigate to Bing. At this point it's up to us to drive the browser and create out automation. In the video below I'll do a quick stock search and save the code generated.
 
+[![Video Demo](https://img.youtube.com/vi/Xubn62GTkDk/0.jpg)](https://www.youtube.com/watch?v=Xubn62GTkDk)
+
 Lets look at what we got. Remember, this is generated code so it's going to be messy, but it will hopefully give an idea of what 'codegen' does and provide you with a good starting point.
 
 ```
