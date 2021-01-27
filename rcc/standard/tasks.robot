@@ -3,4 +3,4 @@ Documentation   An example robot.
 
 *** Tasks ***
 Minimal task
-    Log  Done.
+    Log  Done   console=yes

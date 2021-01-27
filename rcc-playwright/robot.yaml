@@ -1,0 +1,23 @@
+tasks:
+  Default:
+    command:
+      - python
+      - task.py
+  codegen:
+    command:
+      - python
+      - -m
+      - playwright
+      - codegen
+      - -o
+      - codegen.py
+      - https://bing.com/
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
