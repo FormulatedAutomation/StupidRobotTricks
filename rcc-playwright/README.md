@@ -1,3 +1,5 @@
+![FA Github Header](https://user-images.githubusercontent.com/2868/98735818-fabe8a80-2371-11eb-884a-e555e31aa348.png)
+
 # RCC, Playwright and the 'codegen' tool
 
 In this tutorial we're going to take a look at not only getting Playwright up and running with RCC, but using Playwright's excellent 'codegen' tool to quickly build the start of a web automation script.
