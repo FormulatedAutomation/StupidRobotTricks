@@ -1,8 +1,8 @@
 # RCC, Playwright and the 'codegen' tool
 
-In this tutorial we're going to take a look at not only getting Playwright up and running with RCC, but using Playwright's excellent codegen tool to quickly build the start of a web automation script.
+In this tutorial we're going to take a look at not only getting Playwright up and running with RCC, but using Playwright's excellent 'codegen' tool to quickly build the start of a web automation script.
 
-'codegen' is a tool that comes with Playwright which launches the browser and records your session within it. When you're done, just close the browser and it will output a Python script which duplicated your actions in the browser.
+'codegen' launches an interactive browser and records the actions you take while within the session. When you're done, just close the browser and it will output a Python script duplicating your actions in the browser.
 
 It's generated code, so it's not perfect, but if you're starting a new web automation project it's a quick way to get up and running with a basic script. Let's walk through the setup process and at the end we'll demonstrate using 'codegen' to look up a stock quote.
 
