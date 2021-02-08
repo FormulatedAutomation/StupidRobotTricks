@@ -1,8 +1,8 @@
 # Using RCC within UiPath
 
-UiPath is a great automation tool, but if you come from the Python world it can be a bit difficult to drop back into the scripting tool you know and love. UiPath does have the ability to run Python, but it can be difficult to debug and certainly doesn't include anyway to specify the version of Python nor the dependencies.
+UiPath is a great automation tool, but if you come from the Python world it can be a bit difficult to drop back into the scripting tool you know and love. UiPath does have the ability to run Python, but it doesn't include any way to specify the version of Python nor the dependencies.
 
-While play with Robocorp's RCC tool, I realized that it might be trivial to write a Powershell script that downloads RCC and then runs a python project via the tool.
+While playing with Robocorp's RCC tool, I realized that it might be trivial to write a Powershell script that downloads RCC and then runs a python project via the tool.
 
 In this example we have a UiPath bot that runs a Powershell script, which in turn takes care of running our python project via RCC. The Python project has several dependencies and includes browser automation. The automation runs, gets the price of a stock and then writes that out to a local JSON file, which UiPath in turn reads back into its flow.
 
@@ -71,4 +71,5 @@ Now that RCC has installed the dependecies, `task.py` is run. This automation us
 Back in UiPath, after the Powershell script completes (which means our Python automation has run), UiPath then reads in and deserializes the JSON file we output from Python. There's no easy way to transfer data between a Powershell process and UiPath so we use a JSON file as the transport for now.
 
 What it looks like:
+
 ![image](https://user-images.githubusercontent.com/2868/107256029-f5bbb680-6a06-11eb-835a-ada393956676.png)
