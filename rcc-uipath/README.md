@@ -64,7 +64,7 @@ Try {
 
 ### Python side
 
-Now that RCC has installed the dependecies, `task.py` is run. This automation uses Playwright to open a browser and get a stock price. It thens writes this data to a local JSON file called `quote.json`
+Now that RCC has installed the dependencies, `task.py` is run. This automation uses Playwright to open a browser and get a stock price. It thens writes this data to a local JSON file called `quote.json`
 
 ### From the UiPath side
 
