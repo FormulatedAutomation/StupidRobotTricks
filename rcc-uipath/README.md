@@ -1,3 +1,13 @@
+![FA Github Header](https://user-images.githubusercontent.com/2868/98735818-fabe8a80-2371-11eb-884a-e555e31aa348.png)
+
+
+**Formulated Automation RPA Resources**
+
+-   [Formulated Automation Podcast](https://www.formulatedautomation.com/category/podcast/)
+-   [/r/ProcessAutomation](https://reddit.com/r/ProcessAutomation)
+-   [Process Automation LinkedIn
+    Group](https://www.linkedin.com/groups/12366622/)
+
 # Using RCC within UiPath
 
 UiPath is a great automation tool, but if you come from the Python world it can be a bit difficult to drop back into the scripting tool you know and love. UiPath does have the ability to run Python, but it doesn't include any way to specify the version of Python nor the dependencies.
