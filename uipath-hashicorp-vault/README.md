@@ -20,7 +20,7 @@ The goal of this project is to demonstrate how that's accomplished.
 
 Pretty self-explanatory, but this lets us make HTTP requests and also parse the JSON response.
 
-![Install Package dialog]()
+![Install Package dialog](https://github.com/FormulatedAutomation/StupidRobotTricks/blob/main/uipath-hashicorp-vault/add_web_activities.png?raw=true)
 
 ### Use the Web Request wizard to build your request
 
@@ -43,7 +43,7 @@ And in order to authenticate you'll need to make sure the headers include your t
 
 You can see my setup below:
 
-![Web Request wizard]()
+![Web Request wizard](https://github.com/FormulatedAutomation/StupidRobotTricks/blob/main/uipath-hashicorp-vault/WebRequest.png?raw=true)
 
 ### Demonstration
 
@@ -51,6 +51,6 @@ And finally, you'll want to parse the JSON response and save it to a variable. A
 
 You can see the raw JSON response in the screenshot below (don't worry, this isn't my actual password)
 
-![Web Request wizard]()
+![Web Request wizard](https://github.com/FormulatedAutomation/StupidRobotTricks/blob/main/uipath-hashicorp-vault/Output.png?raw=true)
 
 You can open this project up in UiPath, but in order to run it you'll need to update the token, path and vault address to make it work.
